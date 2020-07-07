@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 海外疫情地图 -->
+        <div class="brief">
+            <div class="brief_header">
+                <h2>海外疫情</h2>
+                <p>更新时间 - 2020-05-07 10:20:21</p>
+            </div>
+            <ul class="brief_body"></ul>
+            <div class="map">
+                <div class="map_info"></div>
+                <div class="map_tab">
+                    <span class="cur">累计确诊</span>
+                    <span>现有确诊</span>
+                </div>
+            </div>
+        </div>
+        <!-- 海外疫情趋势 -->
+        <div class="tendency">
+            <div class="map_header">海外疫情趋势</div>
+            <div class="map_info"></div>
+            <div class="map_tab">
+                <span class="cur"><i>新增确诊</i></span>
+                <span><i>累计确诊/<br>现有确诊</i></span>
+                <span><i>死亡数/<br>治愈数</i></span>
+                <span><i>病死率/<br>治愈率</i></span>
+            </div>
+        </div>
+        <!-- 昨日新增确诊国家Top10 -->
+        <div class="addTop10">
+            <div class="map_header">昨日新增确诊国家Top10</div>
+            <div class="map_info"></div>
+        </div>
+    </div>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/nameMap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
